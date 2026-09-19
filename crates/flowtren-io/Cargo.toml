@@ -1,0 +1,9 @@
+[package]
+name = "flowtren-io"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+polars = { version = "0.55", features = ["lazy", "csv"] }
+thiserror = "2"
+calamine = "0.26"

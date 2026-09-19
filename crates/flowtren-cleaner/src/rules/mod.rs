@@ -1,0 +1,10 @@
+pub mod casing;
+pub mod categories;
+pub mod currency;
+pub mod dates;
+pub mod duplicates;
+pub mod empty_rows;
+pub mod nulls;
+pub mod numbers;
+pub mod percentage;
+pub mod whitespace;

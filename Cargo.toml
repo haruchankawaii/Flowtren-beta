@@ -1,0 +1,23 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "apps/desktop/src-tauri",
+    "crates/flowtren-core",
+    "crates/flowtren-io",
+    "crates/flowtren-profiler",
+    "crates/flowtren-cleaner",
+    "crates/flowtren-quality",
+    "crates/flowtren-stats",
+    "crates/flowtren-insights",
+    "crates/flowtren-charts",
+    "crates/flowtren-export",
+]
+
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 3
+panic = "abort"
+strip = true

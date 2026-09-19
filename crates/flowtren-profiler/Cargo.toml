@@ -1,0 +1,13 @@
+[package]
+name = "flowtren-profiler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+flowtren-core = { path = "../flowtren-core" }
+polars = { version = "0.55.2", features = ["lazy", "csv"] }
+thiserror = "2"
+chrono = "0.4"
+
+[dev-dependencies]
+flowtren-io = { path = "../flowtren-io" }

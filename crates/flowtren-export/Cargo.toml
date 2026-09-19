@@ -1,0 +1,8 @@
+[package]
+name = "flowtren-export"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+polars = { version = "0.55.2", features = ["lazy", "csv"] }
+rust_xlsxwriter = "0.99.1"
