@@ -1,9 +1,9 @@
-# Tauri + React + Typescript + Rust
+## Download
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+### Windows
 
-## Recommended IDE Setup
+[![Download Flowtren](https://img.shields.io/badge/Download-Flowtren%20v1.0%20Beta-2563eb?style=for-the-badge&logo=windows)](https://github.com/haruchankawaii/flowtren-beta/releases/latest/download/Flowtren_1.0.0_x64-setup.exe)
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+**Windows 10/11 · x64**
 
-
+> Flowtren is currently in public beta. Windows may show a SmartScreen warning because the installer is not yet code-signed.
